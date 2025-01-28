@@ -1,5 +1,5 @@
 # LLMchat
-## HarmonyOS-Next/Openharmony
+**HarmonyOS-Next/Openharmony**
 ## Step on PC 
 ### 1.Download ollama
 [ollama](https://ollama.com/)
@@ -24,5 +24,10 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 ```
 **After that,you can access Open WebUI at (http://localhost:3000)   ,Enjoy!**
 ### 4.Making it accessible on LAN or WAN
+
+There are many ways to make it,please follow the guidance of Open WebUI
+
 **Get a url to config the app**
+## Step on phone
+**config the url on the app**
 
