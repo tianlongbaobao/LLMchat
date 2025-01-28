@@ -1,5 +1,5 @@
 # LLMchat
-**HarmonyOS-Next/Openharmony**
+**Software for HarmonyOS-Next/Openharmony**
 ## Step on PC 
 ### 1.Download ollama
 [ollama](https://ollama.com/)
@@ -17,7 +17,7 @@ ollama run llama3:8b
 **There are three ways to build it,docker(recommand),python-original,original.We use docker for example**
 #### 1.Download docker
 [docker](https://docs.docker.com/desktop/setup/install/windows-install/)
-#### 2.Turn on Hyper-V and WSL
+#### 2.Turn on Hyper-V and WSL(Optinal Windows)
 #### 3.run open-webui
 ```
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
