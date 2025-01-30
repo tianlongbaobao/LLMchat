@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000001BEBD36054A6EC3877687917FB6E289EBBCD286BE6F58001BD13C7F0367BE686309D4FCCE370C3F1",
+          "certpath": "L:/Harmony/llmchat/llmchatpublish.cer",
+          "keyAlias": "llmchat",
+          "keyPassword": "0000001B89C3E2D8F3495EA71C519DDE12845E5B2D251CA6F7DE08EE58A46CF96CE30DD62AD98653025F8B",
+          "profile": "L:/Harmony/llmchat/llmchatRelease.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "L:/Harmony/llmchat/llmchat.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.1(13)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
